@@ -1,0 +1,71 @@
+.yx-bd-c-r{
+	background: #fff;
+}
+
+.wy-cg-d{
+	width: 890px;
+	height: 574px;
+	border: 1px solid #ddd;
+}
+/*选项卡*/
+ .tab:after{
+ 	content: '';
+ 	display: block;
+ 	clear: both;
+ }
+  .tab{
+	width: 890px;
+	height: 40px;
+    border-bottom: 2px solid #eaeaea;
+    background-color: #f5f5f5;
+  }
+ .tab li{
+ 	width: 150px;
+ 	height: 40px;
+ 	line-height: 40px;
+ 	text-align: center;
+ 	cursor: pointer;
+ 	list-style: none;
+ 	float: left;
+    font-size: 14px;
+	border: 1px solid #ddd;
+ }
+  .tab li span{
+ 	width: 150px;
+ 	height: 18px;
+ 	display: block;
+    border-right: 1px solid #eaeaea;
+    margin-top: 15px;
+    line-height: 18px;
+ }
+ .tab li.active{
+    color: #b4a078;
+	border-top: 2px solid #b4a078;
+	background:#fff;
+	
+ }
+ .content:after{
+ 	content: '';
+ 	display: block;
+ 	clear: both;
+ }
+ .content li{
+ 	height: 270px;
+ 	padding:20px;
+ 	background: #fff;
+ 	display: none;
+ 	position: relative;
+ }
+  .content li div{
+	width: 92px;
+	height: 92px;
+	position: absolute;
+	left: 405px;
+	top: 160px;
+  }
+.content li p{
+	font-size: 18px;
+	text-align: center;
+	line-height: 2;
+	margin-top: 230px;
+}

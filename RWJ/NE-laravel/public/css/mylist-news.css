@@ -1,0 +1,69 @@
+/*右侧内容*/
+.yx-bd-c-r{
+	width: 890px;
+	height: 650px;
+	float: right;
+	margin-top: 20px;
+}
+ .tab:after{
+ 	content: '';
+ 	display: block;
+ 	clear: both;
+ }
+  .tab{
+	width: 890px;
+	height: 40px;
+    border-bottom: 2px solid #eaeaea;
+    background: #fff;
+  }
+ .tab li{
+ 	width: 150px;
+ 	height: 40px;
+ 	line-height: 40px;
+ 	text-align: center;
+ 	cursor: pointer;
+ 	list-style: none;
+ 	float: left;
+    font-size: 18px;
+    font-weight: bold;
+ }
+  .tab li span{
+ 	width: 150px;
+ 	height: 18px;
+ 	display: block;
+    border-right: 1px solid #eaeaea;
+    margin-top: 15px;
+    line-height: 18px;
+ }
+ .tab li.active{
+    color: #b4a078;
+	border-bottom: 2px solid #b4a078;
+ }
+ .content:after{
+ 	content: '';
+ 	display: block;
+ 	clear: both;
+ }
+ .content li{
+/* 	width: 890px;*/
+ 	height: 650px;
+ 	padding:20px;
+ 	background: #fff;
+ 	display: none;
+ 	position: relative;
+ }
+ .content li div{
+	width: 80px;
+	height: 70px;
+	background: url(../images/icon-normal-sce123ecf87-33bb14653c.png);
+	background-position: 0 -2813px;
+	position: absolute;
+	left: 410px;
+	top: 180px;
+  }
+.content li p{
+	font-size: 18px;
+	text-align: center;
+	line-height: 2;
+	margin-top: 230px;
+}

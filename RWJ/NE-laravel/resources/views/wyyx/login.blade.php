@@ -1,0 +1,111 @@
+@extends('layouts.header')
+@section('title', '登录')
+@section('content')
+	<script>
+		$(function(){
+			//移入登录按钮时
+			$('.dl').mousemove(function(){
+				var zh = $('.zh').val();//账号
+				if(zh){
+					var mm = $('.mm').val();//密码
+					if(mm){
+						var url =  "{{url('wyyx/login/vn')}}";
+						var zh = $('.zh').val();
+						var mm = $('.mm').val();
+						$.get(url,{zh:zh,mm:mm},function(data){
+							if(data == '3'){
+								$('.ts').html('1').css('color','#fff');
+							}else{
+								$('.ts').html('账号或密码错误').css('color','red');
+							}
+						})
+					}else{
+						$('.ts').html('请输入密码').css('color','red');
+					}
+				}else{
+					$('.ts').html('请输入账号').css('color','red');
+				}
+
+				// if($('.ts').html() == '1'){
+
+				// }else{
+				// 	return false;
+				// }
+			}).click(function(){
+				if($('.ts').html() == '1'){
+
+				}else{
+					return false;
+				}
+			})
+		})
+	</script>
+	<!-- 登陆 -->
+	<div class="m-bdbg">
+		<div class="g-row">
+			<div class="m-login-Page">
+				<div class="g-bd-a">
+					<div class="m-zhdl">
+						网易帐号登录
+					</div>
+					<!-- 登陆表单 -->
+					<form action="{{url('wyyx/index')}}" id="login-form" method="post">
+						<input type="hidden" name="_token" value="{{csrf_token()}}">
+						<!-- 账号登陆 -->
+						<div class="top">
+							<div class="u-logo">
+								<div class="u-logo-z"></div>
+							</div>
+							<!-- 输入账号 -->
+							<input type="text" placeholder="  邮箱账号" class="zh" name="name">
+						</div>
+						<!-- 密码登陆 -->
+						<div class="center">
+							<div class="u-logo">
+								<div class="u-logo-m"></div>
+							</div>
+							<!-- 输入密码 -->
+							<input type="password" placeholder="  输入密码" class="mm">
+						</div>
+						<span class="ts"></span>
+						<!-- 登陆按钮 -->
+						<div class="bottom">
+							<input type="submit" value="登  录" class="dl">
+						</div>
+						<!-- 忘记密码和注册 -->
+						<div class="unlogin">
+							<a href="{{url('wyyx/czmm')}}" class="wjmm">忘记密码?</a>
+							<a href="{{url('wyyx/register')}}" class="qzc">去注册</a>
+						</div>
+						<!-- 其他登录方式 -->
+						<div class="otip f-fl">
+							<div class="line"></div>
+							<div class="Other">其他登录方式</div>
+						</div>
+						<!-- 其他登录方式 4个按钮-->
+						<div class="olist">
+							<ul>
+								<li>
+									<p></p>
+									微信
+								</li>
+								<li>
+									<p></p>
+									QQ
+								</li>
+								<li>
+									<p></p>
+									微博
+								</li>
+								<li>
+									<p></p>
+									网易
+								</li>
+							</ul>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+@endsection

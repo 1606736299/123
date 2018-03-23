@@ -1,0 +1,917 @@
+
+/*=========================banner图===========================*/
+article{
+
+}
+#sec-1{
+	height: 420px;
+	overflow: hidden;
+	position: relative;
+
+}
+#sec-1 .banner{
+
+}
+#sec-1 #banner>a>img{
+	height:420px;
+	z-index: 10;
+	transition:.3s;
+}
+#sec-1 #banner ol{
+	position: relative;
+	top: -50px;
+	left:50%;
+}
+#sec-1 #banner ol li{
+	float: left;
+	width: 10px;
+	height: 10px;
+	margin-right: 10px;
+	border:2px solid rgba(0,0,0,0);
+	border-radius:10px;
+	list-style: none;
+	background: #bfbbba;
+}
+#pager li.current{
+	border:2px solid #b4a078!important;
+	background: 0 0 !important;
+
+}
+#sec-1 #banner span{
+	background: url(../images/icon-normal-sce.png) no-repeat;
+	width: 50px;
+	height: 50px;
+	display: block;
+	position: absolute;
+	opacity: 80;
+	cursor: pointer;
+	top:200px;
+	
+	border-radius: 50%;
+	background-color: #d0c4af;
+}
+#sec-1 #banner span.left{
+	background-position: 0 -5173px;
+	left:20%;
+	
+}
+#sec-1 #banner span.right{
+	background-position: 0 -5353px;
+	right:20%;
+}
+#sec-1 #banner span:hover{
+	background-color: #b19d79;
+}
+/*==================品牌制造商sec2================*/
+#sec-2{
+	margin-top: 30px;
+}
+/*标题*/
+section .caption{
+	padding-bottom: 20px;
+
+}
+section .caption .head-left{
+	line-height: 1;
+	float: left;
+}
+section .caption .head-left a{
+	color: #333;
+	display: inline-block;
+}
+section .caption .head-left a h3{
+	
+	font-size: 28px;
+	font-weight: 700;
+	float: left;
+	margin-right: 20px;
+}
+section .caption .head-left span{
+	padding-top: 13px;
+	font-size: 14px;
+}
+section .caption .head-right{
+	line-height: 1;
+	float: right;
+}
+section .caption .head-right a{
+	display: inline-block;
+	margin-left: 30px;
+	padding-top: 14px;
+	font-size: 14px;
+	color: #333;
+}
+section .caption h3:hover{
+	color: #B4A078;
+}
+section .caption .head-right a:hover{
+	color: #B4A078 !important;
+}
+/*内容*/
+.sec2-content{
+	overflow: hidden;
+}
+.sec2-content>a{
+	margin-left: 10px;
+	float: left;
+	
+	overflow: hidden;
+	position: relative;
+}
+.sec2-content>a:first-child{
+	margin-left: 0!important;
+}
+.sec2-content .large{
+	text-align: center;
+	width: 357px;
+	height: 320px;
+	color: #666;
+}
+.sec2-content .large:nth-child(2){
+	margin-left:9px;
+}
+.sec2-content .large .text{
+	font-size: 24px;
+	margin:48px 0 19px;
+	line-height: 1;
+	color: #666;
+	position: relative;
+	z-index: 10;
+}
+.sec2-content .large .price{
+	position: relative;
+	z-index: 10;
+	font-size: 14px;
+	padding-top: 17px;
+	display: inline-block;
+	border-top: 1px solid #666;
+}
+.sec2-content>a .img{
+	width: 100%;
+	height: 100%;
+	z-index: 9;
+}
+.sec2-content>a .img img{
+	width: 357px;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+	transition:1s;
+}
+.sec2-content .small{
+	width: 357px;
+	height: 155px;
+	color: #666;
+}
+.sec2-content .small .text{
+	font-size: 20px;
+	margin:32px 0 10px 20px;
+	line-height: 1;
+	color: #666;
+	position: relative;
+	z-index: 10;
+}
+.sec2-content .small .price{
+	position: relative;
+	z-index: 10;
+	font-size: 14px;
+	padding-top: 10px;
+	margin-left: 20px;
+	display: inline-block;
+	border-top: 1px solid #666;
+}
+.sec2-content .small:last-child{
+	margin-top: 10px;
+}
+.sec2-content>a:hover img{
+	transform:scale(1.05,1.05);
+}
+.sec2-content>a .new{
+	position: absolute;
+	top:-3px;
+	font-size: 11px;
+	margin-left: 2px;
+	line-height: 19px;
+	width: 32px;
+	height: 21px;
+	color: #fff;
+	background: url(../images/sec-2-new.png) no-repeat;
+}
+/*=============新品首发sec3=============*/
+#sec-3{
+	padding-top: 60px;
+	height: 510px;
+	position: relative;
+}
+.sec3-content{
+	height: 344px;
+	overflow: hidden;
+	
+}
+.sec3-content .itemList{
+	
+	overflow: hidden;
+	position: relative;
+	background: #fff;
+	height: 344px;
+}
+.sec3-content .itemList .item{
+	width: 265px;
+	margin-right:10px;
+	display: block;
+	float: left;
+
+}
+.sec3-content .itemList .item:nth-child(4n){
+	margin-right: 0;
+}
+.sec3-content .itemList .item .hd{
+	position: relative;
+	margin-bottom: 8px;
+	overflow: hidden;
+	background-color: #fff;
+}
+.sec3-content .itemList .item .hd a div{
+	width: 265px;
+	height: 265px;
+}
+.sec3-content .itemList .item .hd a div img{
+	width: 265px;
+	height: 265px;
+}
+.sec3-content .itemList .item .hd a div.white{
+	background-color: #fff;
+}
+.sec3-content .itemList .item .hd a div.scene{
+	display: none;
+}
+
+.sec3-content .itemList .item .bd{
+	background-color: #fff;
+}
+.sec3-content .itemList .item .bd .tag{
+	height: 20px;
+	color: #fff;
+	width: 200px;
+	margin:0 auto 3px;
+	overflow: hidden;
+	text-align: center;
+}
+.sec3-content .itemList .item .bd .tag span{
+	background-color: #f28f2d;
+	height: 20px;
+	line-height: 20px;
+	padding:0 5px;
+	font-size: 12px;
+}
+.sec3-content .itemList .item .bd .name{
+	padding:0 10px;
+	margin-bottom: 4px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+}
+.sec3-content .itemList .item .bd .name a{
+	text-align: center;
+	color: #333;
+}
+.sec3-content .itemList .item .bd .price{
+	padding:1px 0 9px;
+	font-size: 13px;
+	line-height: 13px;
+	color: #d4282d;
+	text-align: center;
+}
+.sec3-content .itemList .item .bd .price .retailPrice{
+	position: relative;
+	top:1px;
+}
+.sec3-content .itemList .item .bd .price .tagName{
+	border-left:1px solid #999;
+	margin-left: 7px;
+	padding-left: 7px;
+	color: #999;
+}
+.sec3-content .itemList .item:hover  .item-img .white{
+	display: none;
+}
+.sec3-content .itemList .item:hover  .item-img .scene{
+	display: block;
+}
+.sec3-content .itemList .item:hover{
+	background-color: #F4F0EA;
+}
+.sec3-content .itemList .item:hover .bd{
+	background-color: #F4F0EA;
+}
+/*左右按钮*/
+#sec-3 .btn{
+	background: url(../images/icon-normal-sce.png) no-repeat;
+	width: 50px;
+	height: 50px;
+	display: block;
+	position: absolute;
+	opacity: 80;
+	cursor: pointer;
+	top:230px;
+	border-radius: 50%;
+	background-color: #d0c4af;
+}
+#sec-3 .left{
+	background-position: 0 -5173px;
+	left:-60px;
+	
+}
+#sec-3 .right{
+	background-position: 0 -5353px;
+	right:-60px;
+}
+#sec-3 .btn:hover{
+	background-color: #b19d79;
+}
+
+/*====================人气推荐sec4====================*/
+#sec-4{
+	background-color: #F4F0EA;
+	padding: 60px 0;
+}
+#sec-4 .caption .head-left ol{
+	display: block;
+	padding-left: 13px;
+	float: right;
+}
+#sec-4 .caption .head-left ol li{
+	color: #333;
+	text-align: center;
+	float: left;
+	width: 70px;
+	height: 28px;
+	line-height: 28px;
+	margin-right: 55px;
+	font-size: 14px;
+	cursor:pointer;
+}
+#sec-4 .caption .head-left ol li.active{
+	border-bottom: 2px solid #b4a078;
+	color: #b4a078;
+}
+.sec4-content{
+	overflow: hidden;
+}
+
+.sec4-content .popularItem{
+	width: 223px;
+	height: 260px;
+	margin-left: 10px;
+	background-color: #fff;
+	overflow: hidden;
+	float: left;
+	text-align: center;
+	position: relative;
+	font-size: 13px;
+}
+.sec4-content .popularItem:first-child{
+	width: 390px !important;
+	height: 530px !important;
+	margin-left: 0 !important;
+}
+.sec4-content .popularItem:nth-child(n+5):nth-child(-n+7){
+	margin-top: 10px !important;
+}
+.sec4-content .popularItem:first-child .hd{
+	margin-bottom: 18px;
+}
+.sec4-content .popularItem .hd{
+	background: 0 0;
+	border-bottom: 1px solid #faf0ea;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 8px;
+}
+.sec4-content .popularItem .hd .white{
+	width: 100%;
+	height: 100%;
+}
+.sec4-content .popularItem .hd .white img{
+	width: 180px;
+	height: 180px;
+	transition: 1s;
+}
+.sec4-content .popularItem:first-child .hd .white img{
+	width: 320px !important;
+	height: 320px !important;
+	margin:40px 35px;
+}
+.sec4-content .popularItem:first-child .bd .tag{
+	margin-bottom: 10px;
+}
+.sec4-content .popularItem .bd .tag{
+	margin-bottom: 4px;
+	height: 20px;
+	color: #fff;
+	width: 200px;
+	margin:0 auto 3px;
+	overflow: hidden;
+}
+.sec4-content .popularItem .bd .tag span{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+	padding:0 5px;
+	font-size: 12px;
+	background-color: #e36843;
+}
+.sec4-content .popularItem:first-child .bd .name{
+	margin-bottom: 13px;
+	line-height: 25px;
+}
+.sec4-content .popularItem:first-child .bd .name{
+	font-size: 18px;
+}
+.sec4-content .popularItem .bd .name{
+	
+	margin-bottom: 3px;
+	line-height: 18px;
+	padding:0 10px;
+	height: 20px;
+}
+.sec4-content .popularItem .bd .name a{
+	color: #333;
+}
+.sec4-content .popularItem:first-child .bd .price{
+	font-size: 18px
+	/*line-height: 25px;*/
+}
+.sec4-content .popularItem .bd .price{
+	font-size: 13px;
+	line-height: 13px;
+	color: #d4282d;
+	padding:1px 0 9px;
+}
+.sec4-content .popularItem .bd .price span{
+	height: 18px;
+	position: relative;
+	top:1px;
+}
+.sec4-content .popularItem:hover .white img{
+	transform:scale(1.05,1.05);
+}
+
+/*======================限时购sec5=======================*/
+.pt58{
+	padding-top: 58px;
+}
+.sec5-content{
+	height: 377px;
+	overflow: hidden;
+}
+.sec5-content .countDown{
+	background: url(../images/sec-5-1.jpg) no-repeat;
+	position: relative;
+	height: 377px;
+	width: 224px;
+	padding-top: 60px;
+	float: left;
+	text-align: center;
+}
+.sec5-content .countDown .screenHd{
+	height: 36px;
+	font-size: 28px;
+	line-height: 36px;
+	margin-bottom: 11px;
+	color: #615548;
+}
+.sec5-content .countDown .line{
+	width: 20px;
+	height: 2px;
+	margin:0 auto 18px;
+	background: #61594b;
+}
+.sec5-content .countDown .screenEndTip{
+	margin-bottom: 18px;
+	font-size: 18px;
+	color: #615548;
+	line-height: 22px;
+	height: 22px;
+}
+.sec5-content .countDown .m-countDown{
+	height: 40px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.sec5-content .countDown .m-countDown .w-cd{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	font-size: 18px;
+	background-color: #615548;
+	border-radius: 2px;
+	display: inline-block;
+}
+.sec5-content .countDown .m-countDown .colon{
+	font-weight: 700;
+	padding:0 2px;
+	display: inline-block;
+}
+.sec5-content .countDown .seeMoreBtn{
+	display: block;
+	width: 110px;
+	height: 30px;
+	margin:0 auto;
+	line-height: 30px;
+	color: #fff;
+	font-size: 14px;
+	background-color: #a7936e;
+	border-radius: 15px;
+}
+.sec5-content .flashItemList{
+	margin-left: 224px;
+	height: 377px;
+}
+.sec5-content .flashItemList .flashPraduct{
+	float: left;
+	width: 432px;
+	height: 189px;
+	border:1px solid #f0ece4;
+	border-left: none;
+}
+.sec5-content .flashItemList .flashPraduct:nth-child(n+3){
+	/*border-top: -1px;*/
+}
+.sec5-content .flashItemList .flashPraduct .lt{
+	float: left;
+	width: 180px;
+	height: 180px;
+	cursor:pointer;
+	overflow: hidden;
+	margin:3px 0;
+}
+.sec5-content .flashItemList .flashPraduct .lt a{
+	position: relative;
+	display: block;
+}
+.sec5-content .flashItemList .flashPraduct .lt a img{
+	width: 180px;
+	height: 180px;
+	border:1px solid transparent;
+	transition:transform 1s;
+	display: block;
+	margin:0 auto;
+}
+.sec5-content .flashItemList .flashPraduct .rt{
+	margin-left: 180px;
+	height: 187px;
+	padding-top: 14px;
+}
+.sec5-content .flashItemList .flashPraduct .rt h2{
+	height: 26px;
+	line-height: 26px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #666;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.sec5-content .flashItemList .flashPraduct .rt h2 a{
+	color: #333;
+}
+.sec5-content .flashItemList .flashPraduct .rt p{
+	height: 24px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #999;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.sec5-content .flashItemList .flashPraduct .rt .itemNum{
+	padding:14px 0 8px;
+}
+.sec5-content .flashItemList .flashPraduct .rt .itemNum .numbar{
+	float: left;
+	position: relative;
+	width: 152px;
+	height: 10px;
+	margin:2px 0;
+	border:1px solid #f2cecd;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.sec5-content .flashPraduct .rt .numbar .numbarValue{
+	width: 150px;
+	min-width: 5%;
+	background-color: #ffe5e5;
+	height: 10px;
+}
+.sec5-content .flashPraduct .rt .numTips{
+	height: 14px;
+	margin-left: 162px;
+	font-size: 14px;
+	color: #999;
+    line-height: 14px;
+}
+.sec5-content .flashPraduct .rt .price{
+	font-size: 14px;
+	line-height: 1;
+}
+.sec5-content .flashPraduct .rt .price .aPrice{
+	color: #be4141;
+}
+.sec5-content .flashPraduct .rt .price .aPrice .yuan{
+	font-size: 18px;
+	margin-left: 4px;
+}
+.sec5-content .flashPraduct .rt .price .aPrice .aPriceBold{
+	margin-right: 12px;
+	vertical-align: sub;
+	font-weight: 700;
+	font-size: 24px;
+}
+.sec5-content .flashPraduct .rt .price .oPrice{
+	color: #999;
+}
+.sec5-content .flashPraduct .rt .toBuy{
+	background-color: #be4141;
+	color: #fefefe;
+	display: block;
+	width: 118px;
+	height: 31px;
+	margin-top: 18px;
+	line-height: 31px;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 2px;
+}
+.sec5-content .flashPraduct .rt .toBuy:hover{
+	background-color: #DA4F4F;
+}
+.sec5-content .flashPraduct:hover .lt img{
+	transform:scale(1.05,1.05);
+}
+.sec5-content .flashPraduct .rt h2:hover a{
+	color: #B4A078;
+}
+
+/*====================居家sec6======================*/
+#sec-6 .caption .head-right .CateList{
+	display: inline-block;
+	font-size: 14px;
+	/*padding-top: 14px;*/
+}
+#sec-6 .caption .head-right .CateList span:nth-child(n+8){
+	display: none;
+}
+#sec-6 .caption .head-right .CateList span a{
+	color: #333;
+	margin-left:0;
+}
+#sec-6 .caption .head-right .CateList span:nth-child(7) b{
+	color: transparent;
+}
+#sec-6 .caption .head-right .CateList span:last-child b{
+	color: transparent;
+}
+#sec-6 .caption .head-right .CateList span b{
+	margin:0 13px;
+}
+.sec-banner{
+	margin-bottom: 20px;
+}
+.sec-banner a img{
+	width: 100%;
+	height: 310px;
+}
+.sec-itemList{
+	width: 1090px;
+	overflow: hidden;
+}
+.sec-itemList .item{
+	float: left;
+	margin:0 10px 0 0;
+	width: 265px;
+	text-align: center;
+	font-size: 13px;
+	height: 361px;
+	position: relative;
+}
+.sec-itemList .item .hd{
+	position: relative;
+	margin-bottom: 8px;
+	overflow: hidden;
+	background-color: #f4f4f4;
+}
+.sec-itemList .item .hd img{
+	width: 265px;
+	height: 265px;
+	transition:1s;
+}
+.sec-itemList .item .hd img:hover{
+	transform:scale(1.05,1.05);
+}
+.sec-itemList .item .hd .colorN{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	height: 20px;
+	font-size: 12px;
+	color: #a7936e;
+	border:1px solid #b3a07d;
+	border-radius: 5px;
+	padding:0 4px;
+	line-height: 18px;
+	background-color: #f4f0ea;
+}
+.sec-itemList .item .bd .Tags{
+	height: 20px;
+	color: #fff;
+	width: 200px;
+	margin:0 auto 3px;
+	overflow: hidden;
+}
+.sec-itemList .item .bd h4{
+	padding:0 10px;
+	margin-bottom: 4px;
+	height: 20px;
+	line-height: 20px;
+}
+.sec-itemList .item .bd h4 a{
+	color: #333;
+}
+.sec-itemList .item .bd p{
+	font-size: 13px;
+	line-height: 13px;
+	color: #d4282d;
+	padding:1px 0 9px;
+}
+.sec-itemList .item:last-child{
+	margin-right: 0;
+}
+
+/*甄选家*/
+#sec-15{
+	margin-bottom: 80px;
+}
+#sec-15 .sec15-content a:first-child{
+	margin-left: 0 !important;
+	width: 690px;
+}
+#sec-15 .sec15-content a{
+	margin-left: 10px;
+	float: left;
+	display: block;
+}
+#sec-15 .sec15-content a div{
+	width: 100%;
+	height: 100%;
+}
+#sec-15 .sec15-content a:first-child img{
+	width: 690px !important;
+	height: 380px !important;
+}
+#sec-15 .sec15-content a img{
+	width: 390px;
+	height: 185px;
+}
+#sec-15 .sec15-content a:last-child{
+	margin-top: 5px;
+}
+
+/*大家都在说*/
+#sec-16{
+	background-color: #F4F0EA;
+}
+#sec-16 .sec16-content{
+	width: 1090px;
+	overflow: hidden;
+	height: 494px;
+}
+#sec-16 .sec16-content ul .itemList{
+
+	position: static;
+	width: 1100px;
+}
+#sec-16 .slick-list{
+	position: relative;
+	transform:translate3d(0,0,0);
+	left:0;
+	display: inline-block;
+	height: 494px;
+}
+#sec-16 .slick-list .item{
+	width: 367px;
+	display: block;
+	float: left;
+	height: 100%;
+	min-height:1px;
+
+}
+#sec-16 .slick-list .item .m-product{
+	background-color: #fff;
+	height: 492px;
+	width: 355px;
+	position: relative;
+	border:1px solid #fff;
+}
+#sec-16 .slick-list .item .m-product .hd{
+	margin-bottom: 0;
+	height: 355px;
+	width: 355px;
+	transition height linear .3s;
+	overflow: hidden;
+}
+#sec-16 .slick-list .item .m-product .hd a img{
+	width: 355px;
+	height: 355px;
+	color: #fff;
+	background-color: #fff;
+	margin:0 auto;
+	transition:1s;
+}
+#sec-16 .slick-list .item .m-product .bd{
+	position: absolute;
+	margin:0 0px;
+	min-height: 140px;
+	bottom: 0;
+	background-color: #fff;
+	overflow: hidden;
+	padding:20px 15px;
+}
+#sec-16 .slick-list .item .m-product .bd .name{
+	color: #999;
+	font-size: 13px;
+	line-height: 1;
+	margin-bottom: 12px;
+}
+#sec-16 .slick-list .item .m-product .bd h4{
+	margin-bottom: 16px;
+	/*max-width: 190px;*/
+	font-size: 16px;
+	height: 16px;
+	line-height: 16px;
+	overflow: hidden;
+	text-align: left;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+#sec-16 .slick-list .item .m-product .bd h4 span{
+	float: right;
+	margin-right: 15px;
+	font-size: 13px;
+	line-height: 13px;
+	padding:1px 0 9px;
+	color: #b4a078;
+	font-weight: normal;
+}
+#sec-16 .slick-list .item .m-product .bd p.content{
+	text-align: left;
+	font-size: 13px;
+	color: #333;
+	line-height: 20px;
+	min-height: 80px;
+	max-height: 80px;
+	overflow: hidden;
+	position: relative;
+}
+#sec-16 .slick-list .item:hover img{
+	transform:scale(1.05,1.05);
+}
+#sec-16 .sec16-content ul .itemList span{
+
+}
+#sec-16 .btn{
+	background: url(../images/icon-normal-sce.png) no-repeat;
+	width: 50px;
+	height: 50px;
+	display: block;
+	position: absolute;
+	opacity: 80;
+	cursor: pointer;
+	top:280px;
+	border-radius: 50%;
+	background-color: #d0c4af;
+}
+#sec-16 .left{
+	background-position: 0 -5173px;
+	left:-60px;
+	
+}
+#sec-16 .right{
+	background-position: 0 -5353px;
+	right:-60px;
+}
+#sec-16 .btn:hover{
+	background-color: #b19d79;
+}
+
+
+
+
+
+
+
+
+

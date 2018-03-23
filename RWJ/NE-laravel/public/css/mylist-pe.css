@@ -1,0 +1,117 @@
+.yx-bd-c-r{
+	background: #fff;
+}
+.wy-pe{
+	width: 100%;
+	height: 548px;
+}
+.wy-pe .wy-pe-d{
+	width: 890px;
+	height: 34px;
+}
+.wy-pe .wy-pe-d div{
+	width: 264px;
+	height: 34px;
+	border: 1px solid #ddd;
+	float: left;
+}
+.wy-pe .wy-pe-d div input{
+	width: 207px;
+	height: 34px;
+	float: left;
+	border: 0;
+	outline: none;
+	font-family: "Microsoft Yahei","微软雅黑",verdana;
+    color: #333;
+}
+.wy-pe .wy-pe-d div button{
+	width: 57px;
+	height: 34px;
+	float: right;
+	border: 0;
+    background: #c0ae8a;
+    font-family: "Microsoft Yahei","微软雅黑",verdana;
+    color: #fff;
+}
+.wy-pe .wy-pe-d a{
+	float: left;
+	color: #69c;
+    font-size: 12px;
+    line-height: 34px;
+}
+
+
+/*选项卡*/
+ .wx-xxk{
+ 	width: 890px;
+ 	height: 494px;
+ 	border: 1px solid #ddd;
+ 	margin-top: 10px;
+ }
+ .wx-xxk .tab:after{
+ 	content: '';
+ 	display: block;
+ 	clear: both;
+ }
+  .wx-xxk .tab{
+	width: 890px;
+	height: 42px;
+    border-bottom: 2px solid #eaeaea;
+    background: #f5f5f5;
+  }
+ .wx-xxk .tab li{
+ 	width: 150px;
+ 	height: 42px;
+ 	line-height: 40px;
+ 	text-align: center;
+ 	cursor: pointer;
+ 	list-style: none;
+ 	float: left;
+    font-size: 14px;
+ 	border: 1px solid #ddd;
+ }
+  .wx-xxk .tab li span{
+ 	width: 150px;
+ 	height: 18px;
+ 	display: block;
+    border-right: 1px solid #eaeaea;
+    margin-top: 15px;
+    line-height: 18px;
+ }
+ .wx-xxk .tab li.active{
+    color: #b4a078;
+	border-top: 2px solid #b4a078;
+	border-bottom: 0;
+	background: #fff;
+	border-left: 0;
+	border-right: 0;
+ }
+ .wx-xxk .content:after{
+ 	content: '';
+ 	display: block;
+ 	clear: both;
+ }
+ .wx-xxk .content li{
+ 	height: 400px;
+ 	padding:20px;
+ 	background: #fff;
+ 	display: none;
+ 	position: relative;
+ 	/*border: 1px solid red;*/
+ }
+ .wx-xxk .content li div{
+	width: 87px;
+	height: 57px;
+	background: url(../images/oPY6BN+TsAAAAAElFTkSuQmCC.png);
+    background-position: 0 -3945px;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 410px;
+	top: 180px;
+  }
+.wx-xxk .content li p{
+	font-size: 18px;
+	text-align: center;
+	line-height: 2;
+	margin-top: 230px;
+}

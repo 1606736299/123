@@ -1,0 +1,87 @@
+.yx-bd-c-r{
+	background: #fff;
+}
+.wy-ay{
+	width: 890px;
+	height: 630px;
+	border: 1px solid #ddd;
+	position: relative;
+}
+.wy-ay > div{
+	width: 828px;
+	height: 78px;
+	margin: 0 auto;
+	line-height: 78px;
+}    
+.wy-ay > div label{
+ 	width: 90px;
+    text-align: right;
+    display: block;
+    float: left;
+    font-size: 14px;
+}
+.wy-ay > div label i{
+	width: 18px;
+	height: 18px;
+	float: left;
+	background: url(../images/oPY6BN+TsAAAAAElFTkSuQmCC.png);
+	margin-top: 30px;
+    background-position: 0 -5897px;
+}
+.wy-ay > div span{
+    margin-left: 60px;
+    font-size: 14px;
+}
+.wy-ay > div:last-child{
+	background-color: #f5f5f5;
+    margin: 0;
+    padding: 16px 27px 26px 20px;
+    border: 0;
+    position: absolute;
+    bottom: 0;
+    width: 845px;
+}
+.wy-ay > div:last-child div{
+	height: 19px;
+    margin-bottom: 7px;
+    margin-left: 0;
+    font-size: 14px;
+    color: #333;
+    font-weight: 700;
+    margin-top: -30px;
+}
+.wy-ay > div:last-child p{
+	height: 19px;
+    font-size: 13px;
+    color: #999;
+    margin-bottom: 3px;
+}
+.wy-ay > div:first-child{
+    border-bottom: 1px solid #e8e8e8;
+}
+.wy-ay > div:nth-child(2){
+	border-bottom: 1px dashed #e8e8e8;
+}
+.wy-ay > div:nth-child(3){
+	border-bottom: 1px dashed #e8e8e8;
+}
+.wy-ay > div:nth-child(4){
+	border-bottom: 1px dashed #e8e8e8;
+}
+.wy-ay > div:nth-child(2) span{
+	color: #999!important;
+}
+.wy-ay > div:nth-child(3) span{
+	color: #999!important;
+}
+.wy-ay > div:nth-child(4) span{
+	color: #999!important;
+}
+.wy-ay > div:nth-child(4) label i{
+    background-position: 0 -181px;
+}
+.wy-ay > div a{
+	float: right;
+    color: #69c;
+    font-size: 14px;
+}

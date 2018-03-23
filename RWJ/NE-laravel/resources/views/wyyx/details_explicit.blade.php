@@ -1,0 +1,194 @@
+	<!-- 详细 -->
+	<ul class="cl" id="cir_fo">
+	@foreach ($info as $fo)
+		@if($fo->size)
+		<li class="fo">
+			<span>尺寸规格</span>
+			<span>{{$fo->size}}</span>
+		</li>
+		@else
+
+		@endif
+		@if($fo->number)
+		<li class="fo">
+			<span>数目</span>
+			<span>{{$fo->number}}</span>
+		</li>
+		@else
+
+		@endif
+		@if($fo->depth)
+		<li class="fo">
+			<span>深度</span>
+			<span>{{$fo->depth}}</span>
+		</li>
+		@else
+
+		@endif
+		@if($fo->weight)
+		<li class="fo">
+			<span>重量</span>
+			<span>{{$fo->weight}}</span>
+		</li>
+		@else
+
+		@endif
+		@if($fo->texture)
+		<li class="fo">
+			<span>材质</span>
+			<span>{{$fo->texture}}</span>
+		</li>
+		@else
+
+		@endif
+		@if($fo->plus)
+		<li class="fo">
+			<span>面料</span>
+			<span>{{$fo->plus}}</span>
+		</li>
+		@else
+
+		@endif
+		@if($fo->fill)
+		<li class="fo">
+			<span>填充</span>
+			<span>{{$fo->fill}}</span>
+		</li>
+		@else
+
+		@endif
+		@if($fo->environment)
+		<li class="fo">
+			<span>环境</span>
+			<span>{{$fo->environment}}</span>
+		</li>
+		@else
+
+		@endif
+		@if($fo->style)
+		<li class="fo">
+			<span>风格</span>
+			<span>{{$fo->style}}</span>
+		</li>
+		@else
+
+		@endif
+		@if($fo->color)
+		<li class="fo">
+			<span>颜色</span>
+			<span>{{$fo->color}}</span>
+		</li>
+		@else
+
+		@endif
+		@if($fo->functionn)
+		<li class="fo">
+			<span>功能</span>
+			<span>{{$fo->functionn}}</span>
+		</li>
+		@else
+
+		@endif
+		@if($fo->is_assemble)
+		<li class="fo">
+			<span>是否安装</span>
+			<span>{{$fo->is_assemble}}</span>
+		</li>
+		@else
+
+		@endif
+		@if($fo->assemble)
+		<li class="fo">
+			<span>安装方式</span>
+			<span>{{$fo->assemble}}</span>
+		</li>
+		@else
+
+		@endif
+		@if($fo->place)
+		<li class="fo">
+			<span>产地</span>
+			<span>{{$fo->place}}</span>
+		</li>
+		@else
+
+		@endif
+		@if($fo->criterion)
+		<li class="fo">
+			<span>标准</span>
+			<span>{{$fo->criterion}}</span>
+		</li>
+		@else
+
+		@endif
+		@if($fo->security)
+		<li class="fo">
+			<span>安全</span>
+			<span>{{$fo->security}}</span>
+		</li>
+		@else
+
+		@endif
+		@if($fo->prompt)
+		<li style="width:100%;">
+			<span>特别提示</span>
+			<span>{{$fo->prompt}}</span>
+		</li>
+		@else
+
+		@endif
+		@if($fo->attention)
+		<li style="width:100%;">
+			<span>温馨提示</span>
+			<span>{{$fo->attention}}</span>
+		</li>
+		@endif
+	@endforeach
+	</ul>
+	<div class="data_reactid">
+
+		@foreach ($list1 as $v3)
+		    {!!  $v3->cir_img  !!}
+		@endforeach
+		<p><br></p>
+	</div>
+	<div class="other">
+		<div class="tt">常见问题</div>
+		<div class="con">
+			<ul>
+				<li>
+					<div class="question">购买运费如何收取？</div>
+					<div class="answer">
+						单笔订单金额（不含运费）满88元免邮费；不满88元，每单收取10元运费。<br>
+						(港澳台地区需满500元免邮费；不满500元，每单收取30元运费)
+					</div>
+				</li>
+				<li>
+					<div class="question">网易严选的订单如何配送？</div>
+					<div class="answer">
+						网易严选会根据商品所在地、顾客所在地和商品的尺寸重量优选物流配送商，确保优质用户体验。目前暂不支持自选快递，具体物流信息可在下单成功后“我的订单-追踪物流”中查看。
+					</div>
+				</li>
+				<li>
+					<div class="question">如何申请退换货？</div>
+					<div class="answer">
+						1.自收到商品之日起30日内，顾客可申请无忧退货；如果是退货，退款将原路返还，不同的银行处理时间不同，预计1-5个工作日到账；<br>
+						2.内裤和食品等特殊商品无质量问题不支持退换货；<br>
+						3.退货流程：<br>确认收货-申请退货-客服审核通过-用户寄回商品-仓库签收验货-退款审核-退款完成；<br>4.换货流程：<br>确认收货-申请换货-客服审核通过-用户寄回商品-仓库签收验货-客服确认-换货完成；<br>5.退换货运费由网易严选承担。上门取件费用由网易严选统一与快递服务商结算，顾客只需将退换货商品交给上门取件快递员寄回。如顾客选择自行寄回商品，请先垫付运费，到货验证商品后，严选将以现金券形式为用户报销运费，不接受单方面到付件。
+					</div>
+				</li>
+				<li>
+					<div class="question">如何开具发票？</div>
+					<div class="answer">
+						1.请在下单时选择“我要开发票”并填写相关信息（APP仅限2.4.0及以上版本）。开具增值税专用发票需在下单时填写增票资质信息。温馨提示：请确保增票资质信息与贵司税务登记证信息一致，避免因开票信息错误给贵司带来损失。<br>2.可选开票内容：<br>订单中含有办公用品（箱包、文具、口罩）--办公用品、耗材、日用品、家居用品、食品、酒/饮料、服饰、化妆品；不含有办公用品--日用品、家居用品、食品、酒/饮料、服饰、化妆品；订单商品为礼品卡--预付卡。<br>3.增值税专用发票开具内容为明细。
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+<script type="text/javascript">
+	$('#cir_fo .fo').eq(-1).css({'width':'100%'});
+	$('#cir_fo li').last().css({'border-bottom':'none'});
+
+
+</script>

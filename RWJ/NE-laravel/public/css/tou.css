@@ -1,0 +1,203 @@
+.m-overlay {
+    position: fixed;
+    display: table;
+}
+.m-overlay-ani {
+    opacity: 1;
+}
+.f-ani-mask {
+    opacity: .8!important;
+}
+.w-mask-ani {
+    opacity: 0;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+}
+.w-mask {
+    background-color: #000;
+    -moz-opacity: .8;
+    filter: alpha(opacity=80);
+    opacity: .8;
+}
+.f-disabledmask .disabledmask, .f-tlbr, .m-overlay, .m-overlay .overlay-container, .w-mask {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.m-overlay .contentWrap {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+}
+.m-pop-avatar {
+    height: 480px;
+}
+.m-pop {
+    position: relative;
+    width: 500px;
+    min-height: 274px;
+    margin: 0 auto;
+    background-color: #fff;
+    z-index: 10;
+    display: none;
+}
+.f-ani-bouncein {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    opacity: 1!important;
+}
+.m-pop .w-close {
+    width: 24px;
+    height: 24px;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+.m-pop .pos-l, .m-pop .pos-m, .m-pop .pos-r, .m-pop .w-close, .m-pop .w-title {
+    position: absolute;
+}
+.close-close24, .m-customLightbox .close, .m-pop .w-close, .m-report-modal .modal .modal-body .close {
+    background-position: 0 -221px;
+    height: 24px;
+    width: 24px;
+}
+.m-customLightbox .close, .m-pop .w-close, .m-pop .w-close:hover, .m-report-modal .modal .modal-body .close, .w-icon-close {
+    background-image: url(//mimg.127.net/hxm/yanxuan-web/p/20150730/style/img/x1/close-sd951fd4974-fab87eee17.png);
+    background-repeat: no-repeat;
+}
+.m-pop .w-title {
+    font-size: 18px;
+    top: 40px;
+    left: 40px;
+}
+.m-pop .pos-l, .m-pop .pos-m, .m-pop .pos-r, .m-pop .w-close, .m-pop .w-title {
+    position: absolute;
+}
+.m-pop-avatar .m-avatarUploadWarp {
+    position: relative;
+    margin: 180px auto 0;
+    overflow: hidden;
+    text-align: center;
+}
+.m-pop-avatar .w-button-avatarUpload {
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    height: 54px;
+    bottom: 0;
+    border: 1px solid #e8e8e8;
+    text-align: center;
+    line-height: 54px;
+    font-size: 30px;
+    color: #e8e8e8;
+    cursor: pointer;
+    background: url(//yanxuan.nosdn.127.net/ef2ef231f06c467802c891c81a5974b9.png) 35px center no-repeat;
+}
+.m-pop .w-button {
+}
+.w-button {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    width: 96px;
+    height: 28px;
+    padding: 0;
+    letter-spacing: normal;
+    line-height: 26px;
+    font-size: 12px;
+    text-align: center;
+    color: #333;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+}
+.m-pop-avatar .w-uploadTips {
+    color: #999;
+    font-size: 14px;
+    margin-top: 8px;
+}
+.m-pop-avatar .bottom50 {
+    bottom: 50px;
+}
+.m-pop .pos-l {
+    left: 101px;
+}
+.m-pop .w-button {
+}
+.m-pop-avatar .w-button-avatarUpload .fileInput {
+    font-size: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 500px;
+    height: 500px;
+    opacity: 0;
+    cursor: pointer;
+    filter: alpha(opacity=0);
+}
+.w-button-l {
+    width: 144px;
+    height: 42px;
+    line-height: 40px;
+    font-size: 16px;
+}
+.w-button-primary {
+    color: #fff;
+    border: 1px solid #b4a078;
+    background-color: #b4a078;
+}
+
+.w-button, textarea {
+    vertical-align: middle;
+}
+.m-pop-avatar .bottom50 {
+    bottom: 50px;
+}
+.m-pop .pos-r {
+    right: 101px;
+}
+.w-button-l {
+    width: 144px;
+    height: 42px;
+    line-height: 40px;
+    font-size: 16px;
+}
+.m-pop-avatar .tips {
+    color: #d4282d;
+    font-size: 12px;
+    position: absolute;
+    left: 100px;
+    bottom: 25px;
+}
+.m-pop-avatar .w-button-avatarUpload .uploadText {
+    font-size: 16px;
+    color: #333;
+    padding-left: 25px;
+    text-align: center;
+}
+.m-pop-avatar .m-avatarUploadWarp {
+    position: relative;
+    margin: 180px auto 0;
+    overflow: hidden;
+    text-align: center;
+}
+.w-button{
+    display: inline-block;
+}
+#tou_all{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+#hidd{
+    display: none;
+}
